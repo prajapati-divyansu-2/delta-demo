@@ -2,7 +2,7 @@
 This is demo for new accessing.
 
 # Teacher 
-krishna
+krish
 
 # student
-nij das
+ni
