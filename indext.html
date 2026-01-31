@@ -11,6 +11,36 @@
         git config --global user.email "your email"
         check status : git status
         add staged file : git add filename (. instead of filename for all of file on added mode)
+        commit staged file : git commit -m "your message"(write genuine message)
+        when create new repo in vs code without create in website : add 1 file with readme.md file 
+        git init -> when you are created new folder in your computer after in folder write this line ls -a 
+        git push origin main  // git push -u origin main -u means set upstream for main branch 
+        for next time you write only  ( GIT PUSH )
+        git remote add origin #link#
+        git remote -v (to verify remote)
+        change branch name : git branch -M #main# main is common name for root branch
+        git commit -am "message" ( -a means add and commit in one line with message)
+        git branch ( to check branch name )
+        git checkout # branch name #
+        git checkout -b #new branch name# ( to create new branch and switch to that branch ) 
+        git branch -d # branch name # ( to delete branch)
+        
+        case 1 : staged changes 
+               git reset #fiel name#
+               git reset ( for all file) 
+
+        case 2 : commited changes ( for one commit )
+                git reset HEAD~1  | for move backword on path
+
+        case 3 : commited changes ( for many commits )
+                git log ( to check commit hash)
+                git reset #commit-hash#
+                git reset --hard #commit-hash# ( for delete all changes after that commit hardly )
+        
+
+
+
+
     </P>
 </body>
 </html>
