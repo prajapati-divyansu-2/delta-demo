@@ -119,6 +119,14 @@
         DELETE FROM #table_name#
         WHERE condition;  <!-- delete rows data if you not write  WHERE condition then it's delete all rows-->
 
+        ALTER TABLE #table_name#
+        ADD COLUMN #column_name# #data_type# #constraint# ;  <!-- add column -->
+
+        ALTER TABLE #table_name#
+        DROP  COLUMN #column_name# ;  <!-- delete column -->
+
+         ALTER TABLE #table_name#
+         RENAME TO  #new_table_name# ;
 
     </P>
 </body>
