@@ -134,11 +134,23 @@
          ALTER TABLE #table_name#
          MODIFY #column_name# #new_data_type# #new_constraint# ;  <!-- modify column not name -->
 
-         * DATABASE RUN ON TERMINAL*
+        * DATABASE RUN ON TERMINAL*
+         On Windows PowerShell (example path - adjust to your install):
+         & 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe' -u root -p
+         mysql>
+         Or, if using WSL / Unix environment:
          /usr/local/mysql/bin/mysql -u root -p
          mysql>
 
          connection.end(); <!-- close connection suggest all task perform after you use this line -->
+
+         there are four way to create database 
+  
+         1. workbench
+         2. mysql package - with nodejs
+         3. cli (command line interface)
+         4. sql file
+         
 
     </P>
 </body>
