@@ -126,8 +126,13 @@
         DROP  COLUMN #column_name# ;  <!-- delete column -->
 
          ALTER TABLE #table_name#
-         RENAME TO  #new_table_name# ;
+         RENAME TO  #new_table_name# ; <!-- rename table -->
 
+         ALTER TABLE #table_name#
+         CHANGE COLUMN #old_column_name# #new_column_name# #data_type# #constraint# ;  <!-- change column name -->
+
+         ALTER TABLE #table_name#
+         MODIFY #column_name# #new_data_type# #new_constraint# ;  <!-- modify column not name -->
     </P>
 </body>
 </html>
